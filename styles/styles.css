@@ -1,0 +1,80 @@
+body {
+	background-color: #FCFAF5;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.center form{
+	margin: auto;
+  	width: 50%;
+  	border: 3px solid #0c2b47;
+  	padding: 3%;
+}
+.center .flexME {
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}
+.center label {
+	padding-right: 3%;
+}
+.center input[type=text] {
+	width: 60%;
+}
+a, .flexME input[type=submit] {
+	background-color: #ea7373;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2%;
+}
+ input[type=submit] {
+	border: none;
+	cursor: pointer;
+	background-color: #ea7373;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2%;
+}
+
+h1 {
+	color: #0c2b47;
+	width: 50%;
+	margin: auto;
+	padding: 3%;
+}
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+form {
+	margin-bottom: 2%;
+}
+.flx {
+	display: flex;
+}
+#tableButton form {
+	width: 100%;
+}
+
+.Table {
+	display: table;
+}
+
+.account {
+	display: flex;
+	width: 80%;
+	margin: auto;
+}
